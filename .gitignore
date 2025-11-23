@@ -1,0 +1,30 @@
+--- Environment ---
+
+Ignore the virtual environment directory created by 'python3 -m venv venv'
+
+venv/
+.venv/
+
+--- Operating System ---
+
+macOS files
+
+.DS_Store
+
+--- Python ---
+
+Byte-compiled files
+
+pycache/
+*.pyc
+
+Distribution/packaging
+
+*.egg-info/
+dist/
+
+--- Backend Specific ---
+
+Ignore the temporary uploads folder where videos are stored
+
+uploads/
